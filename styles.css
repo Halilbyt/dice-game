@@ -1,0 +1,634 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+
+html{
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    padding:0;
+    margin:0;
+    direction:ltr;
+}
+body{
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:100%;
+    max-height:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    font-family: 'Poor Story', cursive;
+    color:#646464;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: normal;
+    text-decoration:none;
+    text-align:center;
+    background-image: linear-gradient(to bottom right, #06d6a0,#073b4c);
+    color:white;
+}
+
+.header-area{
+    display:block;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    outline:0;
+    text-align: center;
+    color:#fff;
+}
+.navbar-area{
+    position:relative;
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    border:none;
+    outline:none;
+    margin:0 auto;
+    padding:none;
+    font-family: 'Poor Story', cursive;
+    color:#fff;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: normal;
+    text-decoration:none;
+    text-align:center;
+    background-color: #344e41;
+    box-shadow:0 5px 7px 4px rgba(0,0,0,0.2);
+}
+.navbar-area h1{    
+    position:relative;        
+    height:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    color:#ef4767;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: normal;
+    text-decoration:none;
+    text-align:left;
+    vertical-align: center;
+    margin-top:0%;
+    margin-left:4%;
+    float:left;    
+}
+.navbar-area a{
+    text-decoration:none;
+    color:#f77f00
+}
+.navbar-area a:hover{
+    text-decoration:none;
+    color:rgb(7, 204, 142)
+}
+@media only screen and (min-width:1200px) { /* xl*/
+    .navbar-area h1{        
+        width:calc(100% - 400px);
+        min-width:(100% - 400px);
+        max-width:(100% - 400px);
+        font-size:40px;        
+    }
+}
+@media only screen and (min-width:922px) and (max-width:1199px){ /* l*/
+    .navbar-area h1{
+        margin-top:0.5%;
+        width:calc(100% - 400px);
+        min-width:(100% - 400px);
+        max-width:(100% - 400px);
+        font-size:35px;  
+    }
+}
+@media only screen and (min-width:768px) and (max-width:921px){ /* m*/
+    .navbar-area h1{
+        margin-top:1.5%;
+        width:calc(100% - 400px);
+        min-width:(100% - 400px);
+        max-width:(100% - 400px);
+        font-size:30px;  
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* s*/
+    .navbar-area h1{
+        margin-top:2%;
+        width:calc(100% - 350px);
+        min-width:(100% - 350px);
+        max-width:(100% - 350px);
+        font-size:24px;        
+    }
+}
+@media only screen  and (max-width:575px){ /* xs*/
+    .navbar-area h1{
+        margin-top:4%;
+        width:calc(100% - 250px);
+        min-width:(100% - 250px);
+        max-width:(100% - 250px);
+        font-size:20px;  
+    }
+}
+
+#header-link-area{
+    position:relative;
+    float:right;  
+    height:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    margin:0 auto;
+    padding:0;
+    border:none;
+    outline:none;    
+    font-family: 'Poor Story', cursive;
+    color:#fff;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: normal;
+    text-decoration:none;
+    text-align:right;
+    list-style: none;
+}
+
+@media only screen and (min-width:1200px) { /* xl*/
+    #header-link-area{
+        width:25%;
+        min-width:25%;
+        max-width:25%;
+        margin-top:0.4%;  
+        
+    }
+}
+@media only screen and (min-width:922px) and (max-width:1199px){ /* l*/
+    #header-link-area{
+        width:25%;
+        min-width:25%;
+        max-width:25%;
+        margin-top:0.5%; 
+    }
+}
+@media only screen and (min-width:768px) and (max-width:921px){ /* m*/
+    #header-link-area{
+        width:300px;
+        min-width:300px;
+        max-width:300px;        
+        margin-top:0.5%;  
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* s*/
+    #header-link-area{
+        width:300px;
+        min-width:300px;
+        max-width:300px;
+        margin-top:0.5% 
+    }
+}
+@media only screen  and (max-width:574px){ /* xs*/
+    #header-link-area{
+        width:200px;
+        min-width:200px;
+        max-width:200px; 
+        margin-top:2%;
+    }
+}
+
+.header-links{
+    position:relative;
+    display:inline-block;
+    width:auto;   
+    height:10vh;
+    min-height:10vh;
+    max-height:10vh;
+    margin:0 auto;
+    padding:0;
+    border:none;
+    outline:none;    
+    font-family: 'Poor Story', cursive;
+    color:#fff;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: normal;
+    text-decoration:none;
+    text-align:right;
+    list-style: none;
+    margin-right:11%;
+    padding:5.5%;
+}
+main{
+    display:block;
+    position:relative;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    padding:0;
+    outline:0;
+    overflow:hidden;
+    border:none;
+    text-align:center;
+}
+#container{
+    display:block;
+    position:relative;
+    width:calc(100% - 200px);
+    min-width:calc(100% - 200px);
+    max-width:calc(100% - 200px);
+    height:80vh;
+    min-height:80vh;
+    max-height: 80vh;
+    margin:0 auto;
+    padding:0;
+    outline:0;
+    overflow:hidden;
+    border:none;
+    text-align:center;
+    background-color:#001253;
+    border-radius:15px;
+    box-shadow: 2px 7px 8px  rgba(0,0,0,0.5);        
+}
+#container-50precent-left-area{
+    display:block;
+    float:left;
+    position:relative;
+    width:calc(45% - 10px);
+    min-width:calc(45% - 10px);
+    max-width:calc(45% - 10px);
+    height:auto;
+    margin:0 auto;
+    padding:0;
+    border:none;
+    outline:none;
+    text-align:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+
+#dice-imges-left-area{
+    display:inline-block;
+    position:relative;
+    width:calc(100% - 100px);
+    min-width:calc(100% - 100px);
+    max-width:calc(100% - 100px);
+    height:auto;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    overflow:hidden;
+    text-align:left;    
+}
+
+#winner-flag-area-left{
+    position:relative;
+    display:inline-block;
+    width: 12vw;
+    min-width: 12vw;
+    max-width: 12vw;
+    height:auto;
+    border:none;
+    outline:none;
+    overflow:hidden;
+    margin-left:30%;
+    margin-top:12%;
+    padding-bottom:5%;
+    text-align:right;
+}
+@keyframes diceRoll {
+    0% {transform:rotateZ(-20deg)}
+    25% {transform:rotateZ(0deg)}
+    50% {transform:rotateZ(20deg)}
+    100% {transform:rotateZ(0deg)}
+}
+
+#dice-imges-left-area i{
+    color:rgb(27, 204, 11);
+    float:right;
+    width:50px;
+    max-width: 50px;
+    min-width: 50px;
+    display:none;
+}
+
+.dice-text-area{
+    position:relative;
+    width:auto;
+    height:auto;
+    border:none;
+    margin:0 auto;
+    padding:none;
+    outline:none;
+    color:#f90;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    text-align:left;
+    list-style: none;
+    font-size:5vh;
+    margin-left:31%;
+    margin-top:1%;
+}
+
+#btn-player-left{
+    position:relative;
+    width:100px;
+    min-width:100px;
+    max-width:100px;
+    height:40px;
+    max-height:40px;
+    min-height:40px;
+    border:none;
+    border-radius: 5px;
+    margin:0 auto;
+    padding:none;
+    outline:none;
+    color:#f90;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    list-style: none;
+    background-color:#e9cbcb;
+    color:rgb(5, 5, 5);
+    font-size:2.5vh;
+    text-align:center;
+    letter-spacing: 2px;
+    margin-left:30%;
+    margin-top:20%
+}
+#btn-player-left:hover{
+    background-color:#a4c969;
+}
+#container-50precent-right-area{
+    display:block;
+    float:right;
+    position:relative;
+    width:calc(45% - 10px);
+    min-width:calc(45% - 10px);
+    max-width:calc(45% - 10px);
+    height:auto;
+    margin:0 auto;
+    padding:0;
+    border:none;
+    outline:none;
+    text-align:right;
+    margin-top:2%;
+}
+
+#dice-imges-right-right-area{
+    display:inline-block;
+    position:relative;
+    width:calc(100% - 100px);
+    min-width:calc(100% - 100px);
+    max-width:calc(100% - 100px);
+    height:auto;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    overflow:hidden;
+    text-align:right;   
+}
+
+#winner-flag-right-area{
+    position:relative;
+    display:inline-block;
+    width: 12vw;
+    min-width: 12vw;
+    max-width: 12vw;
+    height:auto;
+    border:none;
+    outline:none;
+    overflow:hidden;
+    margin-right:30%;
+    margin-top:12%;
+    text-align:right;
+    padding-bottom:5%;
+}
+@keyframes diceRoll2 {
+    0% {transform:rotateZ(-20deg)}
+    25% {transform:rotateZ(0deg)}
+    50% {transform:rotateZ(20deg)}
+    100% {transform:rotateZ(0deg)}
+}
+#dice-imges-right-right-area i{
+    color:rgb(27, 204, 11);
+    float:left;
+    width:50px;
+    max-width: 50px;
+    min-width: 50px;
+    display:none;
+}
+#btn-player-right{
+    position:relative;
+    width:100px;
+    min-width:100px;
+    max-width:100px;
+    height:40px;
+    max-height:40px;
+    min-height:40px;
+    border:none;
+    border-radius: 5px;
+    margin:0 auto;
+    padding:none;
+    outline:none;
+    color:#f90;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    list-style: none;
+    background-color:#e9cbcb;
+    color:rgb(5, 5, 5);
+    font-size:2.5vh;
+    text-align:center;
+    letter-spacing: 2px;
+    margin-right:30%;
+    margin-top:20%
+}
+.dice-text-area-right{
+    position:relative;
+    width:auto;
+    height:auto;
+    border:none;
+    margin:0 auto;
+    padding:none;
+    outline:none;
+    color:#f90;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    text-align:right;
+    list-style: none;
+    font-size:5vh;
+    margin-right:31%;
+    margin-top:1%;
+}
+#btn-player-right:hover{
+    background-color:#a4c969;
+}
+#game-score-1{
+    display:block;
+}
+#game-score-1{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height: auto;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    outline:0;
+    overflow:hidden;
+    text-align:left;
+}
+
+#footertext{
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    outline:none;
+    text-align:center;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    text-align:center;
+    list-style: none;
+    font-size:5vh;
+    color:#f90
+}
+#left-text-area{
+    display:none;
+}
+#right-text-area{
+    display:none;
+}
+.countdown-area{
+    position:relative;
+    display:block;
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:auto;
+    outline:none;
+    margin:0 auto;
+    padding:0;
+    border:none;
+    overflow:hidden;
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    text-decoration:none;
+    list-style: none;
+    font-size:6vh;
+    color:#f90;
+    margin-top:20%;
+}
+.myOverlay-area{
+    display:none;
+    border:none;
+    height: 100%;
+    width: 100%;
+    outline:none;
+    padding:0;
+    overflow:hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+.overlay-content-area{
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto;
+    padding:0;
+    border:none;
+    outline:none;
+    overflow:hidden;
+    text-align:center;
+}
+.overlay-close-btn{
+    position:absolute;
+    top:20px;
+    right:45px;
+    font-size:60px;
+    color:white;
+}
+.overlay-close-btn:hover{
+    color: rgb(48, 35, 35);
+    cursor:pointer;
+}
+.resetBtn{
+    display:block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 12px 26px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+    margin-top:10%;
+    font-family: 'Poor Story', cursive;
+    line-height:1.5;
+    font-style:normal;
+    font-variant:normal;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size:2.3vw;
+    box-shadow: 12px 18px rgba(0,0,0,0.9);
+    
+}
+.resetBtn:hover {
+    background-color: rgb(48, 35, 35);
+    color: white;
+  }
